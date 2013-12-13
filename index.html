@@ -25,20 +25,22 @@
         <script src="js/jquery.mobile-1.3.1.min.js"></script>
 		<script>
 		$(function(){
-				$("#mid_content").fadeIn();
+				$("#mid_content img").fadeIn(500,function(){
+							$("#mid_content a").fadeIn(500);
+				});
 		});
 		</script>
 
     </head>
     <body>
         
-    <div data-role="page" data-theme='b'>
+    <div data-role="page" data-theme='b' style="background: #fa9401 url('images/load_screen.jpg') no-repeat center center;">
 
-        <div data-role="content">
-				<div id=mid_content style="display:none;margin:50px auto;width:239px;text-align:center;" >
-						<img src="images/welcome.png" />
+        <div data-role="content" >
+				<div id=mid_content style="margin: 0 auto;width:239px;text-align:center;" >
+						<img src="images/welcome.png" style="margin-top:50%;display:none;"/>
 						<br /><br />
-						<a href="menu.html" >
+						<a href="menu.html"  style="display:none;box-shadow: inset 0px 0px 0px 1px #8e664c ;">
 								browse our collection
 						</a>
 				</div>

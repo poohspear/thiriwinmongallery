@@ -31,13 +31,18 @@ textarea.ui-body-b.ui-input-text:focus {
 	border: 1px solid #33B5E5;
 }
 
-.ui-body-b .ui-link,.ui-body-b .ui-li a,.nativeDroidCards ul[data-nativedroid-plugin="twitter"] a {
+.ui-body-b .ui-link, .ui-body-b .ui-li a, .nativeDroidCards ul[data-nativedroid-plugin="twitter"] a {
 	color: #fff;
+}
+.ui-body-b .ui-link  {
 	background:#fbbd00;
 	padding-right:10px;
 	padding-left:10px;
+	border-radius:10px;
+	margin-top:1px;
+	line-height:12px;
+	box-shadow: inset 0px 0px 0px 2px #0898f6 ;
 }
-
 .ui-body-b .table-stroke tr:nth-child(even) .ui-link {
 	color: #00567c;
 }
